@@ -131,7 +131,7 @@ def ABG_about_callback(update, context):
                             text="sᴜᴘᴘᴏʀᴛ", url=f"t.me/{SUPPORT_CHAT}"
                         ),
                         InlineKeyboardButton(
-                            text="ᴜᴘᴅᴀᴛᴇs", url="https://t.me/EnigmaUnion"
+                            text="ᴜᴘᴅᴀᴛᴇs", url="https://t.me/fyiaru"
                         ),
                     ],
                     [
