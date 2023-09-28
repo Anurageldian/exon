@@ -65,7 +65,7 @@
       "MONGO_DB_URI": {
          "description": "ʀᴇǫᴜɪʀᴇᴅ ғᴏʀ ᴅᴀᴛᴀʙᴀsᴇ ᴄᴏɴɴᴇᴄᴛɪᴏɴs (ᴍᴏɴɢᴏ).",
          "required": true,
-         "value": "mongodb+srv://public:abishnoimf@cluster0.rqk6ihd.mongodb.net/?retryWrites=true&w=majority"
+         "value": "mongodb+srv://fip007:aryasins@cluster0.jar7jiv.mongodb.net/?retryWrites=true&w=majority"
       },
       "TOKEN": {
          "description": "Get bot token from @BotFather on TG",
