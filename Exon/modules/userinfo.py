@@ -372,19 +372,25 @@ def info(update: Update, context: CallbackContext):
     if INFOPIC:
         try:
             profile = context.bot.get_user_profile_photos(user.id).photos[0][-1]
-            context.bot.sendChatAction(chat.id, "upload_photo")
-            context.bot.send_photo(
-                chat.id,
-                photo=profile,
+            # context.bot.sendChatAction(chat.id, "upload_photo")
+            # context.bot.send_photo(
+            #     chat.id,
+            #     photo=profile,
+            #     caption=(text),
+            _file = bot.get_file(profile["file_id"])
+            _file.download(f"{user.id}.png")
+
+            message.reply_photo(
+                photo=open(f"{user.id}.png", "rb"),
                 caption=(text),
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton(
-                                "ʜᴇᴀʟᴛʜ", url="https://t.me/Abishnoi_bots/60"
+                                "ʜᴇᴀʟᴛʜ", url="https://t.me/enigma_mainchat"
                             ),
                             InlineKeyboardButton(
-                                "ᴅɪsᴀsᴛᴇʀ", url="https://t.me/Abishnoi_bots/60"
+                                "ᴅɪsᴀsᴛᴇʀ", url="https://t.me/enigma_mainchat"
                             ),
                         ],
                     ]
