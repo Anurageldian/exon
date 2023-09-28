@@ -372,16 +372,10 @@ def info(update: Update, context: CallbackContext):
     if INFOPIC:
         try:
             profile = context.bot.get_user_profile_photos(user.id).photos[0][-1]
-            # context.bot.sendChatAction(chat.id, "upload_photo")
-            # context.bot.send_photo(
-            #     chat.id,
-            #     photo=profile,
-            #     caption=(text),
-            _file = bot.get_file(profile["file_id"])
-            _file.download(f"{user.id}.png")
-
-            message.reply_photo(
-                photo=open(f"{user.id}.png", "rb"),
+            context.bot.sendChatAction(chat.id, "upload_photo")
+            context.bot.send_photo(
+                chat.id,
+                photo=profile,
                 caption=(text),
                 reply_markup=InlineKeyboardMarkup(
                     [
@@ -523,8 +517,8 @@ def stats(update, context):
             status
             + "\n*Bot statistics*:\n"
             + "\n".join([mod.__stats__() for mod in STATS])
-            + "\n\n[⍙ ɢɪᴛʜᴜʙ](https://github.com/Abishnoi69/ExonRobot) | ⍚\n\n "
-            + "╘══「 by [ᴀʙɪsʜɴᴏɪ](github.com/Abishnoi69) 」\n",
+            + "\n\n[⍙ ɢɪᴛʜᴜʙ](https://github.com/fireispower) | ⍚\n\n "
+            + "╘══「 by [ᴀʙɪsʜɴᴏɪ](github.com/fireispower) 」\n",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(kb),
             disable_web_page_preview=True,
@@ -537,9 +531,9 @@ def stats(update, context):
                         "\n*Bot statistics*:\n"
                         + "\n".join(mod.__stats__() for mod in STATS)
                     )
-                    + "\n\n⍙ [ɢɪᴛʜᴜʙ](https://github.com/Abishnoi69/ExonRobot) | ⍚ \n\n"
+                    + "\n\n⍙ [ɢɪᴛʜᴜʙ](https://github.com/fireispower) | ⍚ \n\n"
                 )
-                + "╘══「 by [ᴅʏɴᴀᴍɪᴄ](github.com/Abishnoi69) 」\n"
+                + "╘══「 by [ᴅʏɴᴀᴍɪᴄ](github.com/fireispower) 」\n"
             ),
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(kb),
