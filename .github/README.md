@@ -152,15 +152,3 @@ OWNER_ID =  sᴛᴀʀᴛ @Exon_Robot & ᴛʏᴘᴇ /id
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ━━━━━━━━━━━━━━━━━━━━
-<h3 align="center">
-    ─「 ᴄʀᴇᴅɪᴛs 」─
-</h3>
- : ➻
-
-➥ [𝐀𝖻𝗂𝗌𝗁𝗇𝗈𝗂] × <a href="https://github.com/Abishnoi69" alt="Abishnoi69"> <img src="https://img.shields.io/badge/KINGABISHNOI-90302f?logo=github" /></a>  
-
-➥ [𝐀ɴᴏɴʏᴍᴏᴜs] × <a href="http://github.com/AnonymousX1025/FallenRobot" alt="AnonymousX1025"> <img src="https://img.shields.io/badge/Anonymous-90302f?logo=github" /></a>  
-
-
-➥ [𝐏ᴀᴜʟsᴏɴᴏғʟᴀʀs] × <a href="https://github.com/PaulSonOfLars/tgbot" alt="PaulSonOfLars"> <img src="https://img.shields.io/badge/PaulSonOfLars-90302f?logo=github" /></a>  
-━━━━━━━━━━━━━━━━━━━━
